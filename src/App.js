@@ -1,10 +1,14 @@
 import React from 'react';
+import LandingPage from "./components/LandingPage";
 
 function App() {
+
   return (
-    <div className="App">
-      Basic template, create react app with scss using webpack
-    </div>
+    <>
+        <LandingPage/>
+        {/*huehuehue*/}
+        <div style={{height: '1000px', width: '100vw', backgroundColor: 'red'}}></div>
+    </>
   );
 }
 

@@ -8,6 +8,7 @@ function App() {
         <LandingPage/>
         {/*huehuehue*/}
         <div style={{height: '1000px', width: '100vw', backgroundColor: 'red'}}></div>
+        <div></div>
     </>
   );
 }
